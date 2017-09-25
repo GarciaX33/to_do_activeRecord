@@ -1,9 +1,10 @@
-
 source('https://rubygems.org')
 
 gem('sinatra')
 gem('rspec')
 gem('pry')
-gem('sinatra-contrib')
+gem('sinatra-contrib', :require => 'sintatra/reloader')
+gem('sinatra-activerecord')
 gem('capybara')
 gem('pg')
+gem('rake')
